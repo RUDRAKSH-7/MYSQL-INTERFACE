@@ -1,3 +1,8 @@
+-- this is an example database that I had chosen as the base for this project
+-- Not neccesary to use this database and its tables for general use
+-- Script can fetch tables on the computer itself
+
+
 create database SHOWROOM;
 use SHOWROOM;
 
@@ -15,4 +20,5 @@ create table Buyers (Cust_No int, Cust_Name varchar(20),
  Purchase_Date date NOT NULL,
  Mobile_No varchar(10),
  Car_No int primary key NOT NULL,
+
  Model varchar(10) NOT NULL);
