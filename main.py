@@ -1,7 +1,3 @@
-
-if __name__ == "__main__":
-    print("SETTING UP CONNECTION")
-
 from os import system
 import sys
 
@@ -335,3 +331,4 @@ except:
     pass
 finally:
     sys.exit()
+
