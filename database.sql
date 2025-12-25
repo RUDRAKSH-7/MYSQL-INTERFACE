@@ -20,5 +20,4 @@ create table Buyers (Cust_No int, Cust_Name varchar(20),
  Purchase_Date date NOT NULL,
  Mobile_No varchar(10),
  Car_No int primary key NOT NULL,
-
  Model varchar(10) NOT NULL);
